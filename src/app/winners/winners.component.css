@@ -1,0 +1,11 @@
+table{
+    width: 100%;
+}
+.mat-column-actions{
+    width: 200px;
+}
+table th{
+    background: whitesmoke;
+    min-height: 30px !important;
+    color: rgb(0, 0, 0);
+}

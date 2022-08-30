@@ -1,0 +1,9 @@
+.primary mat-toolbar-row{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 1rem;
+}
+.primary mat-toolbar-row span{
+    cursor: pointer;
+}

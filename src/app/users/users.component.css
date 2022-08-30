@@ -1,0 +1,14 @@
+table{
+    width: 100%;
+}
+table th{
+    background: whitesmoke;
+    min-height: 30px !important;
+    color: rgb(0, 0, 0);
+}
+.mat-column-actions{
+    width: 200px;
+}
+tr.mat-header-row {
+    height: 56px;
+}

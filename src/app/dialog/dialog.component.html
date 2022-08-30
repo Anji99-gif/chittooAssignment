@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col">
+        <h3>Confirm {{action=='add'?'adding':'removing'}} <strong>{{userData.name}}</strong></h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12 text-right d-flex justify-content-center">
+        <button mat-raised-button (click)="onClick('No')" color="warn">{{action=='add'?'Cancel':'Cancel'}}</button> &nbsp;&nbsp;
+        <button mat-raised-button color="primary" (click)="onClick('Yes')">{{action=='add'?'Add':'Remove'}}</button>
+    </div>
+</div>

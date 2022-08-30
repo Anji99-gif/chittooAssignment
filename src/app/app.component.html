@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <mat-toolbar color="primary" class="primary">
+        <mat-toolbar-row>
+          <span (click)="navigateTo('users')">Users</span>
+          <span (click)="navigateTo('winners')">Winners</span>
+          <span (click)="navigateTo('toppers')">Toppers</span>
+        </mat-toolbar-row>
+      </mat-toolbar>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
